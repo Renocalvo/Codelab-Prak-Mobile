@@ -1,0 +1,84 @@
+
+/* html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+} */
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+.navbar-navigator {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-navigator li a {
+    color: white;
+    text-decoration: none;
+}
+
+.abilities {
+    color: white;
+}
+
+.abilities h4 {
+    font-size: 15px;
+}
+
+
+.card {
+    padding: 15px;
+}
+
+.maps img {
+    border: none;
+    max-width: 100%;
+}
+
+.maps {
+    gap: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+.role {
+    border: 1px solid red;
+    box-shadow: 0 0 3px 3px red;
+    width: 7rem;
+height:8rem;
+    background-color: rgb(43, 43, 43);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.abilities .card{
+    border: 1px solid red;
+    background-color:  rgb(53, 53, 53);
+    border-radius: 15px;
+
+}
+
+.ability-card:hover{
+    border: 1px solid red;
+    box-shadow: 0 0 3px 3px red;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+.card-maps a :hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+
+.warna-bg{
+    margin-top: 30px;
+    background-color: green;
+    padding: 20px;
+}
