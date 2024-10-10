@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <style>
+        form {
+            width: 100%;
+
+        }
+
+        label {
+            display: inline-block;
+            width: 70px;
+            margin-bottom: 10px;
+            
+        }
+
+        
+
+        input[type="text"],
+        /* input[type="date"], */
+        textarea {
+            width: 180px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        input[type="simpan"] {
+            margin-left: 75px;
+            /* padding: 5px 15px; */
+            border-radius: 6px;
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br>
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim"><br>
+
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" id="tanggal" name="tanggal"><br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" rows="5" cols="21"></textarea><br>
+
+        <input type="submit" id="simpan" name="simpan" placeholder="simpan">
+    </form>
+</body>
+</html>
